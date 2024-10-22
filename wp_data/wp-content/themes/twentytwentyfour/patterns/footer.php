@@ -117,7 +117,7 @@
 			$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfour' ) ) . '" rel="nofollow">HongFamily</a>';
 			echo sprintf(
 				/* Translators: Designed with WordPress */
-				esc_html__( 'Designed with %1$s', 'twentytwentyfour' ),
+				esc_html__( 'Copyright %1$s', 'twentytwentyfour' ),
 				$wordpress_link
 			);
 			?>
